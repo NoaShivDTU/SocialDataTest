@@ -34,6 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+<iframe src="/Users/Noa/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/3. semester/Social Data/Lec 6/bokeh_plot.html" width="700" height="500" style="border:none;"></iframe>
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
