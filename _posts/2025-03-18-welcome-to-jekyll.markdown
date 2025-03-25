@@ -5,6 +5,12 @@ title:  "Assignment 2"
 categories: jekyll update
 ---
 <iframe src="/plots/bokeh_plot.html" width="700" height="500" style="border:none;"></iframe>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+    <iframe src="/plots/map_hooray_offences.html" width="100%" height="250" style="border:none;"></iframe>
+    <iframe src="/plots/map_hooray_drunk.html" width="100%" height="250" style="border:none;"></iframe>
+    <iframe src="/plots/map_hooray_drug.html" width="100%" height="250" style="border:none;"></iframe>
+</div>
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
