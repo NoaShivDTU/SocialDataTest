@@ -4,8 +4,25 @@ title:  "Assignment 2"
 #date:   2025-03-18 11:01:26 +0100
 categories: jekyll update
 ---
-<iframe src="/plots/bokeh_plot.html" width="700" height="500" style="border:none;"></iframe>
-<iframe src="/plots/crime_animation_map.html" width="700" height="500" style="border:none;"></iframe>
+
+<div style="padding: 0px 5px; ">
+  <iframe 
+      src="/plots/bokeh_overlay_plot.html" 
+      width="100%" 
+      height="900"
+      style="max-width: 1200px; margin: auto; display: block; border: none;">
+  </iframe>
+</div>
+
+<div style="padding: 0px 5px; ">
+  <iframe 
+      src="/plots/crime_animation_map.html" 
+      width="100%" 
+      height="900"
+      style="max-width: 1200px; margin: auto; display: block; border: none;">
+  </iframe>
+</div>
+
 <img src="/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
