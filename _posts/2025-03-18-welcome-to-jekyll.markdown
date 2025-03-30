@@ -9,8 +9,9 @@ categories: jekyll update
 This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in the timeframe of 2018 to 2024. 
 </p>
 
+
 <figure>
-  <img src="/SocialData_Assignment2/_site/plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+  <img src="NoaShivDTU/SocialData_assignment2/_site/plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;"><strong>Figure 1:</strong>
 Polar bar chart of each crime type for hour of the day.
   </figcaption>
@@ -27,7 +28,7 @@ These spikes in drunkenness and offences against the familiy and children occuri
 
 <figure >
   <iframe 
-      src="/SocialData_Assignment2/_site/plots/crime_animation_map.html" 
+      src="NoaShivDTU/SocialData_Assignment2/_site/plots/crime_animation_map.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">
@@ -47,7 +48,7 @@ This map indicate that the crimes within the three categories often occur within
 
 <figure >
   <iframe 
-      src="/SocialData_Assignment2/_site/plots/bokeh_overlay_plot.html" 
+      src="NoaShivDTU/SocialData_Assignment2/_site/plots/bokeh_overlay_plot.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">
