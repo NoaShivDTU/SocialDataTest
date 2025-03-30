@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Assignment 2
+title: SF crime investigation
 email: s203681@dtu.dk
+  s203682@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Posts analysing the overlap of drug/narcotics offenses, drunkness and offences against family and children 
+  reported in San Francisco.
 domain: SocialDataTest.github.io 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,9 +31,12 @@ github_username:  NoaShivDTU
       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
-  
+# plugins:
+#   - jekyll-feed
+
+minima:
+  header_pages:
+    - visuals.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
