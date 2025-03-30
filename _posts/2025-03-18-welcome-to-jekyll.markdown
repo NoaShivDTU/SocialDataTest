@@ -4,15 +4,15 @@ title:  "How Drug and Alcohol Offenses Intersect with Crimes Against Families an
 #date:   2025-03-31 11:01:26 +0100
 categories: jekyll update
 ---
-{% include crime_animation_map.html %}
-{% include bokeh_overlay_plot.html %}
+
+
 <p>
 This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in the timeframe of 2018 to 2024. 
 </p>
 
 
 <figure>
-  <img src="/SocialData_assignment2/_includes/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+  <img src="/SocialData_assignment2/plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;"><strong>Figure 1:</strong>
 Polar bar chart of each crime type for hour of the day.
   </figcaption>
@@ -26,7 +26,7 @@ The chart shows that drug and narcotic-related crimes mostly occur during the af
 These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.
 </p>
 
-
+{% include crime_animation_map.html %}
 <figure >
 <iframe src="/SocialData_Assignment2/_includes/crime_animation_map.html" 
         width="100%" 
@@ -46,6 +46,7 @@ The animated map in <a href="#fig2">Figure 2</a> displays the location of of eac
 This map indicate that the crimes within the three categories often occur within the same area, but doesn't tell if they are reported on the same location.
 </p>
 
+{% include bokeh_overlay_plot.html %}
 <figure >
   <iframe 
       src="/_includes/bokeh_overlay_plot.html" 
