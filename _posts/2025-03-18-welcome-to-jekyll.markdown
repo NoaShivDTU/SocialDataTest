@@ -29,7 +29,7 @@ These spikes in drunkenness and offences against the familiy and children occuri
 
 <figure id="fig2">
   {% include crime_animation_map.html %}
-  <figcaption style="text-align: center; font-style: italic; margin-top: -150px; padding-top: 0;">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 0px; padding-top: 0;">
    <strong>Figure 2:</strong> Animated map of San Francisco showing location of each reported crimes within the categories from 2018 to 2024.
   </figcaption>
 </figure>
