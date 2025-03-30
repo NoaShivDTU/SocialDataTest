@@ -1,50 +1,68 @@
 ---
 layout: post
-title:  "Assignment 2"
-#date:   2025-03-18 11:01:26 +0100
+title:  "How Drug and Alcohol Offenses Intersect with Crimes Against Families and Children"
+#date:   2025-03-31 11:01:26 +0100
 categories: jekyll update
 ---
 
-<div style="padding: 0px 5px; ">
-  <iframe 
-      src="/plots/bokeh_overlay_plot.html" 
-      width="100%" 
-      height="900"
-      style="max-width: 1200px; margin: auto; display: block; border: none;">
-  </iframe>
-</div>
+<p>
+This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in the timeframe of 2018 to 2024. 
+</p>
 
-<div style="padding: 0px 5px; ">
+<figure>
+  <img src="/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 10px;"><strong>Figure 1:</strong>
+Polar bar chart of each crime type for hour of the day.
+  </figcaption>
+</figure>
+
+
+<p>
+The polar bar chart in <a href="#fig1">Figure 1</a> helps identify how patterns of overlap evolve from year to year.
+The chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are fairly spread throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon.
+
+These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.
+</p>
+
+
+<figure >
   <iframe 
       src="/plots/crime_animation_map.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">
   </iframe>
-</div>
+  <figcaption style="text-align: center; font-style: italic; margin-top: -150px; padding-top: 0;">
+   <strong>Figure 2:</strong> Animated map of San Francisco showing location of each reported crimes within the categories from 2018 to 2024.
+  </figcaption>
+</figure>
 
-<img src="/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+<p>
+The animated map in <a href="#fig2">Figure 2</a> displays the location of of each reported crime within the categories of drug and alcohol offences and offences against family and children. The map doesn't display any significant changes in the geographical patterns over time. For all years there is a high density of reported crimes in one area around the Mission district (the top right of the main land) and a more scattered pattern throught the rest of the city. The pattern displayed on the map overlap with the analysis performed by <a href="https://www.wesanfrancisco.org/data/2023-neighborhood-crime">WE San Fransisco</a>, where the dense area on the map also is reported to be some of the most reports of violence and drug crimes. 
+</p>
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<p>
+This map indicate that the crimes within the three categories often occur within the same area, but doesn't tell if they are reported on the same location.
+</p>
 
-Jekyll requires blog post files to be named according to the following format:
+<figure >
+  <iframe 
+      src="/plots/bokeh_overlay_plot.html" 
+      width="100%" 
+      height="900"
+      style="max-width: 1200px; margin: auto; display: block; border: none;">
+  </iframe>
+  <figcaption style="text-align: center; font-style: italic; margin-top: -450px; padding-top: 0;"><strong>Figure 3:</strong> Bar chart displaying the top 10 location where drug and alcohol offences and offences against family and children reports overlap.
+  </figcaption>
+</figure>
 
-`YEAR-MONTH-DAY-title.MARKUP`
+<p>
+Finally, the bar chart in <a href="#fig3">Figure 3</a> gives an indication of how often these crimes overlap. From this it can be seen that a few locations have persistently high incident counts across the years, most significant the locations: (37.77999,-122.41349), (37.78259,-122.41569), and (37.78352,-122.41588). This however doesn't necessarily mean, that one household have the incident count displayed, as the coordinates could be for a complex or housing area. It does indicate neigborhoods where there is an overlap of these crime occurences.
+</p>
+<p>
+Many of the location have a spike in counts in 2020, which could be related to COVID-19, where families were forced to stay home and family crime world wide saw an <a href="https://www.sciencedirect.com/science/article/pii/S2665910720300384">increase</a>. In 2024 there is a significant decrease in the overlap of the crime reports, this could be due to a number of things, but most importantly according to <a href="https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php">San Fransisco Chronicle</a> crime have droped to a two-decade low in 2024.
+</p>
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<p>
+Overall there seem to be a geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children.
+</p>
