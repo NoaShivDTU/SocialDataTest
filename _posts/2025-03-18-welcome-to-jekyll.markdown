@@ -4,7 +4,8 @@ title:  "How Drug and Alcohol Offenses Intersect with Crimes Against Families an
 #date:   2025-03-31 11:01:26 +0100
 categories: jekyll update
 ---
-
+{% include crime_animation_map.html %}
+{% include bokeh_overlay_plot.html %}
 <p>
 This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in the timeframe of 2018 to 2024. 
 </p>
@@ -47,7 +48,7 @@ This map indicate that the crimes within the three categories often occur within
 
 <figure >
   <iframe 
-      src="/_includes_/bokeh_overlay_plot.html" 
+      src="/_includes/bokeh_overlay_plot.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">
