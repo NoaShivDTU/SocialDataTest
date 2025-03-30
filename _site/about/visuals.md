@@ -4,7 +4,11 @@ title:  "Assignment 2"
 #date:   2025-03-18 11:01:26 +0100
 categories: jekyll update
 ---
+What being under the influence does to your family and children.
 
+The data is retrieved from San Francisco police reports, where the crimes reported under the category Offences against the familiy and children, Drunkenness and Drug/Narcotics are selected. In order to only investigate trends in recent years, only years from 2018-2024 are used. 
+
+In order to compare daily patterns of the crime-reports, a polar bar chart is plotted for each of the crime types. 
 <div style="padding: 0px 5px; ">
   <iframe 
       src="/plots/bokeh_overlay_plot.html" 
@@ -24,6 +28,11 @@ categories: jekyll update
 </div>
 
 <img src="/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+Caption 1: polar bar chart of each crime type for hour of the day
+The polar bar chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are fairly spread throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon.
+
+These spikes in drunkenness and  offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
