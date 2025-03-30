@@ -45,7 +45,7 @@ This map indicate that the crimes within the three categories often occur within
 
 <figure id="fig3">
   {% include bokeh_overlay_plot.html %}
-  <figcaption style="text-align: center; font-style: italic; margin-top: 100px;">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
     <strong>Figure 3:</strong> Bar chart displaying the top 10 locations where drug and alcohol offenses and offenses against family and children overlap.
   </figcaption>
 </figure>
