@@ -27,7 +27,7 @@ These spikes in drunkenness and offences against the familiy and children occuri
 </p>
 
 
-<figure >
+<figure id="fig2">
   {% include crime_animation_map.html %}
   <figcaption style="text-align: center; font-style: italic; margin-top: -150px; padding-top: 0;">
    <strong>Figure 2:</strong> Animated map of San Francisco showing location of each reported crimes within the categories from 2018 to 2024.
@@ -43,7 +43,7 @@ This map indicate that the crimes within the three categories often occur within
 </p>
 
 
-<figure>
+<figure id="fig3">
   {% include bokeh_overlay_plot.html %}
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
     <strong>Figure 3:</strong> Bar chart displaying the top 10 locations where drug and alcohol offenses and offenses against family and children overlap.
