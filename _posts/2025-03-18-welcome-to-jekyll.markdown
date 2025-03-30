@@ -26,9 +26,9 @@ The chart shows that drug and narcotic-related crimes mostly occur during the af
 These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.
 </p>
 
-{% include crime_animation_map.html %}
+
 <figure >
-<iframe src="/SocialData_Assignment2/_includes/crime_animation_map.html" 
+<iframe src="/_includes/crime_animation_map.html" 
         width="100%" 
         height="900"
         style="max-width: 1200px; margin: auto; display: block; border: none;">
@@ -46,7 +46,7 @@ The animated map in <a href="#fig2">Figure 2</a> displays the location of of eac
 This map indicate that the crimes within the three categories often occur within the same area, but doesn't tell if they are reported on the same location.
 </p>
 
-{% include bokeh_overlay_plot.html %}
+
 <figure >
   <iframe 
       src="/_includes/bokeh_overlay_plot.html" 
