@@ -28,7 +28,8 @@ These spikes in drunkenness and offences against the familiy and children occuri
 
 
 <figure >
-<iframe src="/_includes/crime_animation_map.html" 
+<iframe id="igraph" scrolling="no" style="border:none;"
+seamless="seamless" src="/_includes/crime_animation_map.html" 
         width="100%" 
         height="900"
         style="max-width: 1200px; margin: auto; display: block; border: none;">
@@ -49,7 +50,7 @@ This map indicate that the crimes within the three categories often occur within
 
 <figure >
   <iframe 
-      src="/_includes/bokeh_overlay_plot.html" 
+      src="/SocialData_assignment2/plots/bokeh_overlay_plot.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">
