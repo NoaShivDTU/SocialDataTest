@@ -27,12 +27,11 @@ These spikes in drunkenness and offences against the familiy and children occuri
 
 
 <figure >
-  <iframe 
-      src="/SocialData_Assignment2/plots/crime_animation_map.html" 
-      width="100%" 
-      height="900"
-      style="max-width: 1200px; margin: auto; display: block; border: none;">
-  </iframe>
+<iframe src="/SocialData_Assignment2/plots/crime_animation_map.html" 
+        width="100%" 
+        height="900"
+        style="max-width: 1200px; margin: auto; display: block; border: none;">
+</iframe>
   <figcaption style="text-align: center; font-style: italic; margin-top: -150px; padding-top: 0;">
    <strong>Figure 2:</strong> Animated map of San Francisco showing location of each reported crimes within the categories from 2018 to 2024.
   </figcaption>
@@ -48,7 +47,7 @@ This map indicate that the crimes within the three categories often occur within
 
 <figure >
   <iframe 
-      src="/SocialData_Assignment2/plots/bokeh_overlay_plot.html" 
+      src="/plots/bokeh_overlay_plot.html" 
       width="100%" 
       height="900"
       style="max-width: 1200px; margin: auto; display: block; border: none;">

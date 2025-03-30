@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   reported in San Francisco.
 
 domain: "https://NoaShivDTU.github.io"
-#baseurl: "/SocialData_Assignment2"  # Must match repo name exactly, including caps
+baseurl: "/SocialData_Assignment2"  # Must match repo name exactly, including caps
 
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
