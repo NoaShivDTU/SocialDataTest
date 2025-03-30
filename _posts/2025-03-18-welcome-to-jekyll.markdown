@@ -8,9 +8,9 @@ categories: jekyll update
 <p>
 This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in the timeframe of 2018 to 2024. 
 </p>
-
+baseurl: "/SocialDataTest"
 <figure>
-  <img src="/plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
+  <img src="{{ site.baseurl }}//plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;"><strong>Figure 1:</strong>
 Polar bar chart of each crime type for hour of the day.
   </figcaption>
