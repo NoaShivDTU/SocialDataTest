@@ -21,7 +21,7 @@ Polar bar chart of each crime type for hour of the day.
 </figure>
 
 <p>
-The chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are fairly spread throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon. These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.  According to the <a href="https://bjs.ojp.gov/content/pub/pdf/ac.pdf">U.S. Department of Justice</a> 3/4 of domestic violence happens when the offender is influences by drinking, describing a tendendecy that violence in homes are heavily overlapping with drunkenness. 
+The chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are fairly spread throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon. These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.  According to the <a href="https://bjs.ojp.gov/content/pub/pdf/ac.pdf">U.S. Department of Justice</a> 3/4 of domestic violence happens when the offender is influenced by drinking, describing a tendendecy that violence in homes are heavily overlapping with drunkenness. 
 </p>
 
 
@@ -35,15 +35,15 @@ The animated map in <a href="#fig2">Figure 2</a> displays the location of of eac
 </figure>
 
 <p>
- The map shows no systematic geographical pattern changes over time. For all years there is a high density of reported crimes in one area around the Mission district (the top right of the main land) and a more scattered pattern throught the rest of the city. The pattern displayed on the map overlap with the analysis performed by <a href="https://www.wesanfrancisco.org/data/2023-neighborhood-crime">WE San Fransisco</a>, where the dense area on the map also is reported to be some of the most reports of violence and drug crimes. 
+ The map shows no systematic geographical pattern changes over time. Each year show a high density of reported crimes in one area, namely around the Mission district (the top right of the main land) and a more scattered pattern throught the rest of the city and in the suburbs. The pattern displayed on the map overlap with the analysis performed by <a href="https://www.wesanfrancisco.org/data/2023-neighborhood-crime">WE San Fransisco</a>, where the dense area on the map also is reported to be some of the most reports of violence and drug crimes. 
 </p>
 
 <p>
-This map indicate that the crimes within the three categories often occur within the same area, but since all incidents are reported by mapping to the nearest intersect, the exact location of the crimes are not shown. 
+This map indicate that the crimes within the three categories often occur within the same area, but since all incidents are reported by mapping to the nearest intersect, as described in <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data">Police Department Incident Reports: 2018 to Present</a>, the exact location of the crimes are not shown. 
 </p>
 
 <p>
-To further investigate how much these crimes overlap in terms of location. This is shown in the bar chart below in <a href="#fig3">Figure 3</a> which indicate neigborhoods where there is an overlap of these crime occurences.
+To further investigate how much these crimes overlap in terms of location, the bar chart below in <a href="#fig3">Figure 3</a> shows neigborhoods where there is an overlap of these crime occurences.
 <p>
 
 <figure id="fig3">
@@ -54,7 +54,9 @@ To further investigate how much these crimes overlap in terms of location. This 
 </figure>
 
 <p>
-From this it can be seen that a few locations have persistently high incident counts across the years, most significant the locations: (37.78259,-122.41569) and (37.78352,-122.41588), which are the intersects between Hyde st. and Eddy st. and between Turk St. and Hyde st. These  intersects are described as hot spots for open sales of illegal drugs, shootings and crimes in general (<a href="https://beyondchron.org/san-francisco-must-stop-drugs-and-violence-at-turk-and-hyde/">increase</a>) and the location (37.77999,-122.41349), which is the UN Skate Plaza decribed as an area of  <a href="https://abc7news.com/sf-un-plaza-skate-park-drugs-homeless/14373671/">chaos with people overdosing and illegal activity throughout the plaza</a>. 
+From this it can be seen that a few locations have persistently high incident counts across the years, most significant the locations: 
+- (37.78259,-122.41569) and (37.78352,-122.41588), which are the intersects between Hyde st. and Eddy st. and between Turk St. and Hyde st. These  intersects are described as hot spots for open sales of illegal drugs, shootings and crimes in general (<a href="https://beyondchron.org/san-francisco-must-stop-drugs-and-violence-at-turk-and-hyde/">increase</a>)
+- (37.77999,-122.41349), which is the UN Skate Plaza decribed as an area of  <a href="https://abc7news.com/sf-un-plaza-skate-park-drugs-homeless/14373671/">"chaos with people overdosing and illegal activity throughout the plaza"</a>. 
 </p>
 
 <p>
