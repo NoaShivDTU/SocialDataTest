@@ -55,7 +55,9 @@ To further investigate how much these crimes overlap in terms of location, the b
 
 <p>
 From this it can be seen that a few locations have persistently high incident counts across the years, most significant the locations: 
+
 - (37.78259,-122.41569) and (37.78352,-122.41588), which are the intersects between Hyde St. and Eddy St. and between Turk St. and Hyde St. These intersect are described as hot spots for open sales of illegal drugs, shootings and crimes in general (<a href="https://beyondchron.org/san-francisco-must-stop-drugs-and-violence-at-turk-and-hyde/">increase</a>)
+
 - (37.77999,-122.41349), which is the UN Skate Plaza described as an area of  <a href="https://abc7news.com/sf-un-plaza-skate-park-drugs-homeless/14373671/">"chaos with people overdosing and illegal activity throughout the plaza"</a>. 
 </p>
 
