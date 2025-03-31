@@ -10,8 +10,9 @@ categories: jekyll update
 This analysis explores the geographical and time-pattern overlap between drug-related offenses, alcohol-related incidents, and crimes against families and children in recent years. The analysis use data from police reports in the San Francisco area <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/about_data">Police Department Incident Reports: 2018 to Present</a>, to create datavisualization and draw parallels in the specific crimes, and the years under investigation are from 2018 to 2024. The main objective in this article is to find tendencies on when and where these crimes happen.
 </p>
 
-
+</p>
 The polar bar chart below in <a href="#fig1">Figure 1</a> helps identify how patterns of overlap during hours of the day, to get an understanding of when these crimes happen.
+</p>
 <figure>
   <img src="/SocialData_assignment2/plots/polar_subplots.png" width="100%" height="300" alt="Polar Subplots" style="border:none;">
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;"><strong>Figure 1:</strong>
@@ -23,7 +24,10 @@ Polar bar chart of each crime type for hour of the day.
 The chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are fairly spread throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon. These spikes in drunkenness and offences against the familiy and children occuring during the same time of day could indicate that a correlation between those two could be investigated.  According to the <a href="https://bjs.ojp.gov/content/pub/pdf/ac.pdf">U.S. Department of Justice</a> 3/4 of domestic violence happens when the offender is influences by drinking, describing a tendendecy that violence in homes are heavily overlapping with drunkenness. 
 </p>
 
+</p>
 The animated map in <a href="#fig2">Figure 2</a> displays the location of of each reported crime within the categories of drug and alcohol offences and offences against family and children, which portrays where these crimes happen.
+</p>
+
 <figure id="fig2">
   {% include crime_animation_map.html %}
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
