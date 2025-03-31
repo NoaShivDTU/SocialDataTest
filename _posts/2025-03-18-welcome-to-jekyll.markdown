@@ -21,7 +21,7 @@ Polar bar chart of each crime type for each hour of the day.
 </figure>
 
 <p>
-The chart shows that drug and narcotic-related crimes mostly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are almost evenly distributed throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon. These spikes in drunkenness and offences against the family and children occurring during the same time of day could indicate that a correlation between those two could be investigated.  According to the <a href="https://bjs.ojp.gov/content/pub/pdf/ac.pdf">U.S. Department of Justice</a> 3/4 of domestic violence happens when the offender is influenced by drinking, describing a tendency that violence in homes is heavily overlapping with drunkenness. 
+The chart shows that drug and narcotic-related crimes mainly occur during the afternoon and follow a somewhat similar pattern compared to the other two crime types. Reports of offences against the family and children are almost evenly distributed throughout the day, with noticeable spikes around noon and midnight. These same spikes are also observed for drunkenness, although many of the reported cases of drunkenness primarily occur during the middle of the day and afternoon. These spikes in drunkenness and offences against the family and children occurring during the same time of day could indicate that a correlation between those two could be investigated.  According to the <a href="https://bjs.ojp.gov/content/pub/pdf/ac.pdf">U.S. Department of Justice</a>, 3/4 of domestic violence happens when the offender is influenced by drinking, describing a tendency that violence in homes is heavily overlapping with drunkenness. 
 </p>
 
 
@@ -35,7 +35,7 @@ The animated map in <a href="#fig2">Figure 2</a> displays the location of each r
 </figure>
 
 <p>
- The map shows no systematic geographical pattern changes over time. Each year shows a high density of reported crimes in one area, namely around the Mission district (the top right of the mainland) and a more scattered pattern throughout the rest of the city and in the suburbs. The pattern displayed on the map overlaps with the analysis performed by <a href="https://www.wesanfrancisco.org/data/2023-neighborhood-crime">WE San Fransisco</a>, where the dense area on the map also is reported to be some of the most reports of violence and drug crimes. 
+ The map shows no systematic geographical pattern changes over time. Each year shows a high density of reported crimes in one area, namely around the Mission district (the top right of the mainland), and a more scattered pattern throughout the rest of the city and in the suburbs. The pattern displayed on the map overlaps with the analysis performed by <a href="https://www.wesanfrancisco.org/data/2023-neighborhood-crime">WE San Fransisco</a>, where the dense area on the map also is reported to be some of the most reports of violence and drug crimes. 
 </p>
 
 <p>
@@ -62,9 +62,9 @@ From this it can be seen that a few locations have persistently high incident co
 </p>
 
 <p>
-Many of the locations have a spike in counts in 2020, which could be related to COVID-19, where families were forced to stay home and family crime worldwide saw an <a href="https://www.sciencedirect.com/science/article/pii/S2665910720300384">increase</a>. In 2024 there is a significant decrease in the overlap of the crime reports, this could be due to several things, but most importantly according to <a href="https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php">San Fransisco Chronicle</a> crime has dropped to a two-decade low in 2024.
+Many of the locations had a spike in counts in 2020, which could be related to COVID-19, where families were forced to stay home and family crime worldwide saw an <a href="https://www.sciencedirect.com/science/article/pii/S2665910720300384">increase</a>. In 2024 there is a significant decrease in the overlap of the crime reports, this could be due to several things, but most importantly according to <a href="https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php">San Fransisco Chronicle</a> crime has dropped to a two-decade low in 2024.
 </p>
 
 <p>
-Overall there seems to be a geographical and time-pattern overlap between drug-related offences, alcohol-related incidents, and crimes against families and children, however, to draw any socio-economic conclusions or recommendations on bringing down these crime types, further analysis is necessary. 
+Overall there seems to be a geographical and time-pattern overlap between drug-related offences, alcohol-related incidents, and crimes against families and children. However, to draw any socio-economic conclusions or recommendations on bringing down these crime types, further analysis is necessary. 
 </p>
